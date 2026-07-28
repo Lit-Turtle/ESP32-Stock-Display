@@ -16,5 +16,4 @@ IOT device capabilities through the ESP32 connected to your wifi network, which 
 
 The circuit was first designed on a breadboard to test the circuit design and concept.
 
-![Photo of Light On/Off Breadboard](<img width="4032" height="2516" alt="LightOnOFFBreadboard" src="https://github.com/user-attachments/assets/5451ab9d-7e8b-4a22-a078-aee2360ae3ae" />
-)
+<img width="4032" height="2516" alt="LightOnOFFBreadboard" src="https://github.com/user-attachments/assets/363da3ae-45d5-4010-8d22-045c65cfd71b" />
