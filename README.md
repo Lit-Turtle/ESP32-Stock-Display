@@ -136,6 +136,9 @@ Specific dimensions may need to be requested.
 [Photoresistor](https://www.amazon.com/dp/B0CM5YNGSF?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
 Part Number for Components
+
 Potentiometer: LCSC Part # C116302
+
 LM393 Comparator: LCSC Part # C5252905
+
 NMOSFET: LCSC Part # C2557
