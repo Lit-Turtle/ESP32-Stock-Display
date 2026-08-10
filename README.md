@@ -50,9 +50,9 @@ Some key features of the base is a cut out and shaping of our USB-C plug, which 
 
 Another important area is the indent which will be important when it comes to our third piece. Lastly our wall mount which was designed for screws drilled into the wall or any similar mounting piece. This is an optional piece only for those who want to mount the display on a wall. However, this neat design allows for easy hooking of display if you choose to do so.  
 
-(Solid works of roof piece)
+<img width="695" height="369" alt="Screenshot 2026-08-09 214355" src="https://github.com/user-attachments/assets/ca0783a8-dc0b-443a-bf84-7d6ecf8c25d1" />
 
-The second piece is the roof of our case. This piece encloses the entire display. Attached to the base via the 4 aligning holes that were seen on the base. Which can then be connected using screws of your choice. //Add whatever changes are made to fix the roof and sensor light.
+The second piece is the roof of our case. This piece encloses the entire display. Attached to the base via the 4 aligning holes that were seen on the base. Which can then be connected using screws of your choice. There is also an additional hole for the photo resistor sensor to stick out from in order to properly measure the room bightness.
 
 <img width="3024" height="1534" alt="MirrorFilm" src="https://github.com/user-attachments/assets/9a8ad5c9-7098-4905-ab63-150ec7468176" />
 
