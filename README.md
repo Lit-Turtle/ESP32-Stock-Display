@@ -24,7 +24,7 @@ This circuit’s main component is the LM393 Comparator which compares the volta
 
 The 10k ohm resistor R3 acts as a pull-down resistor creating a potential difference to actually flow through the photoresistor so that there is voltage to be compared for the LM393, there must be a resistor in order to have the potential difference across be the full 9V through a voltage divider. The 10k ohm resistor R4 acts as a pull-up resistor because the LM393 is open-collector output. This is necessary for whenever the output is HIGH as it helps open the transistor gate. While the 1k ohm resistor R2 is necessary as the NMOSFET gate can cause current spikes and this resistor protects the comparator from these spikes. 
 
-<img width="356" height="218" alt="LOOPCBEditor" src="https://github.com/user-attachments/assets/812b2cca-f1b4-49de-b2dc-1f0bc5887179" />
+<img width="268" height="164" alt="Screenshot 2026-08-09 180215" src="https://github.com/user-attachments/assets/f1bb77de-55a0-4fe3-8dd4-26274a6ed3c2" />
 
 Some key pieces to note are as follows. The vertical potentiometer though taking more space was selected for easier adjusting of potentiometer value due to the narrow width of the power area. Also the LM393 comparator has 2 comparators built in but only one was used. For my case I used pins 1, 2, and 3. It is key not to forget to connect pin 4 for ground and pin 8 for power in order to power the comparator. Another additional piece is the logo engraved in the top right, which was added for a more professional look and for copyright protection.
 
