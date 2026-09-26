@@ -142,6 +142,11 @@ Between the dot matrix and ESP32 will be 5 separate wires: VCC, GND, DIN, CS, an
 
 The ESP32 was programmed through the Arduino IDE. The entire details of the code will not be explained here as the code already contains comments.
 
+Libaries from Arduino IDE used in this program are:
+- ArduinoJson by Benoit Blanchon
+- MD_MAX72XX by majicDesigns
+- MD_Parola by majicDesigns
+
 The ESP32 is established as STA and AP mode, which means you will need to enter your own wifi network information for the ESP32 to function properly. You will also need to import some libraries for you to set up local sites and display everything text/images on the matrix. 
 
 The key idea is that through the site users can select different modes that change what the display shows. If we are displaying stock prices or fear & greed indexes, the ESP32 will grab these prices or index through an api key and display the data.
