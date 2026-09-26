@@ -190,6 +190,8 @@ I will not bore you with the entire explanation but the code, with comments, wil
 
 https://youtu.be/V5j7vDCx7zQ
 
+For a step-by-step guide to assembling the enclosure and electronics, see the [Assembly Guide](ASSEMBLY.md).
+
 ## Future Improvements
 
 Some future improvements I would like to make is having a multi-color matrix display, so that way the color can indicate whether price is up or down and fear or greed. 
