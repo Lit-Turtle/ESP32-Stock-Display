@@ -150,7 +150,12 @@ Install the Arduino IDE on your computer and set up the ESP32 board through the 
 
 Connect the ESP32 to your computer using a USB to USB-C data cable. If your ESP32 uses Micro-USB, use a Micro-USB data cable instead.
 
-Download or copy the project code from the GitHub repository and open it in Arduino IDE.
+Download or copy the project code from the GitHub repository and open it in Arduino IDE. 
+
+Make sure you have the following libaries downloaded from Arduino IDE:
+- ArduinoJson by Benoit Blanchon
+- MD_MAX72XX by majicDesigns
+- MD_Parola by majicDesigns
 
 Before uploading the code, enter your Wi-Fi information in the following variables:
 1. network_name
