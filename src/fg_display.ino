@@ -363,7 +363,7 @@ String getFearGreed() {
     return "NO WIFI";
 
   HTTPClient http;
-  //Just enter cloudflare agent link here for it to work.
+  //Just enter cloudflare worker link here for it to work.
   http.begin("agent link");
 
   int code = http.GET();
