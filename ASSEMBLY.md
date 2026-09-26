@@ -171,6 +171,12 @@ Select the correct ESP32 board and COM port, then upload the code.
 
 The upload may take a few moments. Once the ESP32 connects successfully, the Serial Monitor should provide a link to the device's web interface.
 
+There is an optional fear and greed index method that uses cloudflare worker agent. The code for the agent is included here [Worker](woker.js). However, you will need to set it up.
+
+Once you have the link, upload it to the commented out method and put the link `http.begin("agent link");`
+
+The other method does work, but values may be delayed or off from general index.
+
 ## 12. Test the Display
 
 The display should show a pair of eyes after the code has been uploaded.
