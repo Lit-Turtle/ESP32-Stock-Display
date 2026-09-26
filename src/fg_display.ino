@@ -355,6 +355,67 @@ String getFearGreed() {
 }
 
 /**
+* Optional, but better fear and greed method that uses cloudflare agent.
+*/
+/*
+String getFearGreed() {
+  if (WiFi.status() != WL_CONNECTED)
+    return "NO WIFI";
+
+  HTTPClient http;
+  //Just enter cloudflare agent link here for it to work.
+  http.begin("agent link");
+
+  int code = http.GET();
+
+  if (code != HTTP_CODE_OK) {
+    Serial.print("HTTP ERROR: ");
+    Serial.println(code);
+
+    http.end();
+    return "ERR";
+  }
+
+  String payload = http.getString();
+  http.end();
+
+  Serial.println("FEAR/GREED:");
+  Serial.println(payload);
+
+  DynamicJsonDocument doc(512);
+
+  DeserializationError error = deserializeJson(doc, payload);
+
+  if (error) {
+    Serial.print("JSON ERROR: ");
+    Serial.println(error.c_str());
+    return "JSON ERR";
+  }
+
+  int value = doc["score"] | -1;
+  String classification = doc["rating"] | "";
+
+  if (value < 0)
+    return "N/A";
+
+  String type;
+
+  if (classification == "extreme greed")
+    type = "EG";
+  else if (classification == "greed")
+    type = "G";
+  else if (classification == "extreme fear")
+    type = "EF";
+  else if (classification == "fear")
+    type = "F";
+  else if (classification == "feutral")
+    type = "N";
+
+  return type + " " + String(value);
+}
+*/
+
+/**
 * Displays stock price of given symbol.
 */
 String getStockPrice(String symbol) {
