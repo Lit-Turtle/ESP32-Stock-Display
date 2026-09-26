@@ -1,0 +1,9 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+Q1,TO-220F-3_Vertical,1,NMOS,C2557
+R1,R_LDR_D6.4mm_P3.4mm_Vertical,1,R_Photo,
+R2,805,1,1kR,C17513
+"R3, R4",805,2,10kR,C17414
+RV1,Potentiometer_Bourns_3386P_Vertical,1,R_Pot,C116302
+U1,DIP-8_W7.62mm,1,LM393P,C5209
+U2,9V Input,1,~,
+U3,9VLoadFoot,1,~,
